@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Raj Shrestha Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav id="desktop-nav">
+        <div class="logo">Rohit Raj Shrestha</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Rohit Raj Shrestha</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile" >
+        <div class="section__pic-container">
+          <img src="./assets/mypic.jpg" alt="Rohit Raj Shrestha profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Rohit Raj Shrestha</h1>
+          <p class="section__text__p2">Information Systems Graduate</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/rohitShrestharesume.pdf')">
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/rohit-shrestha-603a862b3'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about" class="animate">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container-2">
+            <img src="./assets/propic.jpg" alt="Profile picture" class="about-pic" />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img src="./assets/education.png" alt="Education icon" class="icon" />
+                <h3>Education</h3>
+                <p>Bachelor’s in Business Information Systems<br />Canterbury Institute of Management, Darwin, NT</p>
+              </div>
+              <div class="details-container">
+                <img src="./assets/OIP.jpeg" alt="Certification icon" class="icon" />
+                <h3>Certification</h3>
+                <p>ETL Process Using Power BI<br />Coursera</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Eager to begin working in the technology and information systems field, having recently completed a bachelor’s degree in information systems. Seeking an entry-level IT position to apply theoretical knowledge, acquire new skills, and contribute to team success. Driven and detail-oriented with strong technical expertise and critical thinking skills, capable of thriving in data-driven environments. Demonstrates a positive attitude, strong work ethic, and the ability to work independently and collaboratively.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience" class="animate">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technical Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Programming</h3>
+                    <p>Java, HTML, CSS, JavaScript</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Software</h3>
+                    <p>Microsoft Office, Visual Studio, GitHub</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Data</h3>
+                    <p>Data Visualization, Database Technologies (MS Access, MySQL)</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Design</h3>
+                    <p>UX/UI Designing (Lucid Chart, Figma)</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Data Management</h3>
+                    <p>ETL Process, Data Integration</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Power Bi</h3>
+                    <p>Data Visualization, Data Modeling, DAX function</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Work Experience</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Customer Service</h3>
+                    <p>Woolworths Darwin City</p>
+                    <p>Feb 2022 – Present</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Night Porter</h3>
+                    <p>The Cavanagh Hotel</p>
+                    <p>Jan 2021 – Jan 2022</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects" class="animate">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="./assets/projectpic.jpeg" alt="Project 1" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Information Systems Project</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact" class="animate">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <div class="contact-info-pic">
+              <img src="./assets/phone-call.png" alt="Phone icon" class="icon" />
+            </div>
+            <div class="contact-info">
+              <h4>Phone</h4>
+              <p>0452354362</p>
+            </div>
+          </div>
+          <div class="contact-info-container">
+            <div class="contact-info-pic">
+              <img src="./assets/email.png" alt="Email icon" class="icon" />
+            </div>
+            <div class="contact-info">
+              <h4>Email</h4>
+              <p>rohit.shrestha314@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <form action="mailto:rohit.shrestha314@gmail.com" method="post" enctype="text/plain">
+          <div class="contact-info-form">
+            <input type="text" placeholder="Full Name" name="name" required />
+          </div>
+          <div class="contact-info-form">
+            <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div class="contact-info-form">
+            <input type="text" placeholder="Subject" name="subject" required />
+          </div>
+          <div class="contact-info-form">
+            <textarea placeholder="Your Message" name="message" required></textarea>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-1 form-btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
